@@ -7,7 +7,12 @@ Trata-se de um backend simples feito utilizando NodeJS e o framework express e t
 
 /api/cars
 - GET: Retorna todos os veículos cadastrados
-- POST: Cadastra um novo veículo
+- POST: Cadastra um novo veículo  
+  -- itens requeridos:  
+    --- model: string contendo o modelo do veículo  
+    --- plate: string com a placa do veículo  
+    --- color: string com a cor do veículo  
+    --- km: numero de kilometros rodados do veículo  
 
 /api/cars/:id 
 - GET: Busca o veículo com o ID informado
